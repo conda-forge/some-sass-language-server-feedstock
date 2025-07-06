@@ -1,5 +1,5 @@
 context:
-  version: "2.2.1"
+  version: "2.3.0"
 
 package:
   name: some-sass-language-server
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/some-sass-language-server/-/some-sass-language-server-${{ version }}.tgz
-  sha256: 6bfb0a698dad6bf3ac1ad6154be5992f94a861d641902ca62b814015bb6ea7bc
+  sha256: 4e342903c88ef4728e788b71057749bb210fafbe6b32355bea77131f197a8db5
 
 build:
   number: 0
