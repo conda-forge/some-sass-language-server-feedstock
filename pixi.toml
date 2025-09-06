@@ -7,7 +7,7 @@
 
 [project]
 name = "some-sass-language-server-feedstock"
-version = "3.50.1"  # conda-smithy version used to generate this file
+version = "3.52.1"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/some-sass-language-server-feedstock"
 authors = ["@conda-forge/some-sass-language-server"]
 channels = ["conda-forge"]
@@ -40,6 +40,7 @@ description = "List contents of some-sass-language-server-feedstock packages bui
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
+shellcheck = "*"
 [feature.smithy.tasks.build-locally]
 cmd = "python ./build-locally.py"
 description = "Build packages locally using the same setup scripts used in conda-forge's CI"
